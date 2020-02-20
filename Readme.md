@@ -1,9 +1,9 @@
-# Poo 2019.2
+# Poo 2020.1
 
 ## Links
 - [Nosso canal do Youtube]()
 - [Hangouts](https://hangouts.google.com/group/NQ6XPZbRo6J9uHR68)
-- [Planilha de Notas](https://docs.google.com/spreadsheets/d/1hoBR_HJw-QYHLuBLSUuKctvK8yhYp1Q944f34NQ8rog/edit#gid=0)
+- [Planilha de Notas](https://docs.google.com/spreadsheets/d/1TjovZfBM-IN0YKg7DHKwW506Dw9HGgyZUhwTXGijceo/edit?usp=sharing)
 - [Pranilha de Flequência](https://docs.google.com/spreadsheets/d/1EIAFzdPrwLA0N6YIlWZKdF_N4qaovy8w0uzM6jx8OV0/edit?usp=sharing)
 
 
