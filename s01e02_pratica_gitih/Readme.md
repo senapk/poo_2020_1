@@ -1,7 +1,7 @@
 ## Links para estudo
 - [Guia Rápido](https://rogerdudler.github.io/git-guide/index.pt_BR.html)
 - [Git book](https://pt.wikiversity.org/wiki/Git_B%C3%A1sico)
-- [Vídeo Aulas]("https://www.youtube.com/playlist?list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0") Assista dos vídeos de 1 até o 4.
+- [Vídeo Aulas](https://www.youtube.com/playlist?list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0) Assista dos vídeos de 1 até o 4.
 - [Curso com certificado](https://www.schoolofnet.com/curso/git)
 - [Tutorial com branchs](https://medium.com/trainingcenter/plano-para-estudar-git-e-github-enquanto-aprende-programa%C3%A7%C3%A3o-f5d5f986f459)
 
@@ -9,7 +9,7 @@
 ### Ações
 - Clonar um repositório externo
     - `git clone url`
-- Atualizar a sua pasta do repositório local com as modificações do repositório externo
+- Sempre que o professor fizer uma alteração no repositório externo, você pode atualizar a sua pasta do repositório local entrando na pasta e digitando:
     - `git pull origin master`
 
 ## Fluxo de trabalho
@@ -33,9 +33,21 @@ Seus repositórios locais consistem em três "árvores" mantidas pelo git. A pri
 
 Se estiver utilizando a máquina do laboratório, lembre de configurar pelo menos o email.
 
+## Trabalhando com seu repositório Git
+- Crie seu repositório no github. 
+    - Marque a opção Iniciar com Readme.
+    - Copie o link do repositório
+- No seu computador
+    - Crie uma pasta usando o gerenciador de arquivos.
+    - Entre na pasta.
+    - Clique com o botão direito do mouse e escolha `abrir com git bash`
+    - Dentro da pasta digite:
+        - git clone url_do_seu_repositório
 
-## Adicionar & Confirmar
 
+## Adicionar & Confirmar & Enviar pra nuvem
+- Você pode ver o estado atual do repositório com
+    - `git status`
 - Você pode propor mudanças (adicioná-las ao Index) usando algum dos seguintes comandos
   - `git add <arquivo>`
   - `git add *`
@@ -45,12 +57,9 @@ Se estiver utilizando a máquina do laboratório, lembre de configurar pelo meno
 - Agora o arquivo é enviado para o HEAD, mas ainda não para o repositório remoto.
 - Para visualizar seus "saves" no repositório local use
     - `git log`
-
-## Trabalhando remotamente
-- Se você clonou o repositório remoto com o comando `git clone`, ele já está vinculado ao repositório remoto. Se ainda não clonou, mas já criou seu repositório local com `git init`, você pode fazer o vínculo com o comando:
-    - `git remote add origin <servidor>`
-- Se você já vinculou os repositórios, pode enviar seus commits utilizando
+- Se você já vinculou os repositórios, pode enviar seus commits para o repositório remoto utilizando
     - `git push origin master`
+
 
 ## Conflitos
 - Se estiver trabalhando com várias máquinas, ao acessar uma máquina e tentar dar o commit, o git vai avisar que já existem atualizações remotas. Lembre de sempre dar o `git pull origin master` antes de trabalhar numa nova pasta.
