@@ -2,7 +2,7 @@
 
 ## Links
 - [Nosso canal do Youtube]()
-- [Hangouts](https://hangouts.google.com/group/NQ6XPZbRo6J9uHR68)
+- [Discord](https://discord.gg/yt93Cv3)
 - [Planilha de Notas](https://docs.google.com/spreadsheets/d/1TjovZfBM-IN0YKg7DHKwW506Dw9HGgyZUhwTXGijceo/edit?usp=sharing)
 - [Pranilha de Flequência](https://docs.google.com/spreadsheets/d/1EIAFzdPrwLA0N6YIlWZKdF_N4qaovy8w0uzM6jx8OV0/edit?usp=sharing)
 
