@@ -72,3 +72,16 @@ Se estiver utilizando a máquina do laboratório, lembre de configurar pelo meno
 - Pode pode ver as diferenças com o comando `git diff nome_do_arquivo`.
 - Pode desfazer as últimas alterações utilizando `git checkout -- nome_do_arquivo`.
 
+
+## Guia rápida
+
+- `git init`: inicializar um repositório na pasta local
+- `git add remote origin url`: vincula o repositório local no repositório remoto
+- `git clone url`: copia o repositório remoto para pasta local
+- `git add path`: marcar os arquivos que serão versionados
+- `git commit -m "msg"`: salva uma versão com todos os arquivos marcados
+- `git push origin master`: envia os commits para o servidor remoto
+- `git pull origin master`: obtém as novidades do repositório remoto para o rep local.
+- `git log`: vê o histórico de commits
+
+
