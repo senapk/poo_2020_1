@@ -4,9 +4,28 @@ import java.util.Scanner;
 
 public class Carro {
 	int nPessoas = 0;
+	int maxPessoas = 5;
 	
 	void embarcar(int qtd) {
+		if(qtd < 0)
+			return;
+		if(qtd + this.nPessoas > this.maxPessoas) {
+			System.out.println("Nao cabe galera, flw");
+			return;
+		}
 		this.nPessoas += qtd;
+		System.out.println("Cai dentro");
+	}
+	
+	void desembarcar(int qtd) {
+		if(qtd < 0)
+			return;
+		if(this.nPessoas < qtd) {
+			System.out.println("so tem " + this.nPessoas + " no carro");
+			return;
+		}
+		this.nPessoas -= qtd;
+		System.out.println("Pega o beco galera");
 	}
 	
 	void show() {
@@ -26,6 +45,9 @@ public class Carro {
 			}else if(ui[0].equals("embarcar")) {
 				int qtd = Integer.parseInt(ui[1]);
 				carro.embarcar(qtd);
+			}else if(ui[0].equals("desembarcar")) {
+				int qtd = Integer.parseInt(ui[1]);
+				carro.desembarcar(qtd);
 			}else {
 				System.out.println("Comando invalido");
 			}
