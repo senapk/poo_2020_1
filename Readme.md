@@ -29,7 +29,21 @@
     - [ ] Coloque/Atualize sua foto no Si3
     - [ ] Coloque seu email e repositório na planilha de Notas
 ### S01E02
-- Classwork [01 Ponto]
+- 01 Ponto
     - [ ] Criar seu repositório no github
     - [ ] No seu repositório crie a pasta **Projeto 01**
         - Insira os primeiros códigos que for criando nessa pasta
+
+### S02E01
+- 03 Pontos
+    - [ ] Finalizar o projeto do Carro iniciado em casa
+        - Coloque na pasta **Projeto 02 Carro**
+- 10 Pontos
+    - [ ] Fazer um projeto semelhante ao Carro à sua escolha que contenha pelo menos
+        - 3 atributos
+        - 4 métodos
+        - interação com o usuário através de comandos
+        - Coloque na pasta **Projeto 03 nome_do_projeto**
+- 02 Ponto Extra
+    - Ler apostila capítulo 4
+
