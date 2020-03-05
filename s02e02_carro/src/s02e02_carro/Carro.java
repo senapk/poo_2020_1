@@ -3,10 +3,10 @@ package s02e02_carro;
 import java.util.Scanner;
 
 public class Carro {
-	int nPessoas = 0;
+	int nPessoas = 0; //atributos
 	int maxPessoas = 5;
 	
-	void embarcar(int qtd) {
+	void embarcar(int qtd) { //metodos
 		if(qtd < 0)
 			return;
 		if(qtd + this.nPessoas > this.maxPessoas) {
