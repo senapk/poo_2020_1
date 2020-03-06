@@ -1,7 +1,7 @@
 # Poo DD 2020.1
 
 ## Links
-- [Nosso canal do Youtube]()
+- [Nosso canal do Youtube](https://www.youtube.com/playlist?list=PLqwyjBSVOHRw_g8n63C_aE0m7mWqEioYT)
 - [Discord](https://discord.gg/yt93Cv3)
 - [Planilha de Notas](https://docs.google.com/spreadsheets/d/1TjovZfBM-IN0YKg7DHKwW506Dw9HGgyZUhwTXGijceo/edit?usp=sharing)
 - [Pranilha de Flequência](https://docs.google.com/spreadsheets/d/1EIAFzdPrwLA0N6YIlWZKdF_N4qaovy8w0uzM6jx8OV0/edit?usp=sharing)
@@ -19,11 +19,11 @@
 - [Vídeo Aulas](https://www.youtube.com/playlist?list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0) Assista dos vídeos de 1 até o 4.
 
 ## S01E01
-- Lecture [01 Ponto*!]
+- Lecture [01 Ponto Extra]
     - [ ] Leia a apostila. Capítulo 1, 2 e 3.
     - [ ] Assista o primeiro vídeo da Playlist Gafanhoto
     - [ ] Rode o seu primeiro Hello World
-- Homework [01 Ponto!]
+- Homework [01 Ponto]
     - [ ] Instale o Java e a IDE (Eclipse, Intelij, Netbeans)
     - [ ] Instale o git na sua máquina pessoal
     - [ ] Coloque/Atualize sua foto no Si3
@@ -48,16 +48,25 @@
     - Ler apostila capítulo 4
 
 ### S03E01 Motoca
-1. Estudar alguns métodos e tentar refazer
-    - Construtor, Embarcar, Desembarcar, Dirigir
-2. Criar um atributo potencia na moto
-    - Motifique o construtor da moto para receber a potência
-    - Modifique o barulho do motor ao dirigir, mudar com a potência
-    - o número de run equivale à potência da moto
-    - potencia 1: run, potencia == 2, run run, potencia == 3 run run run
-4. Criar o atributo int tempo na moto e o atributo tempo no dirigir
-    - ao embarcar, o tempo da moto muda pra 0, o que equivale a 0 minutos de tempo da criança
-    - crie o método pagar(int), que aumenta o tempo da criança
-    - ao dirigir(tempo), gaste o tempo que a criança tem
-    - se não tiver tempo suficiente, dê uma mensagem mandando pagar mais dinheiro
+- 03 Pontos
+    1. Estudar alguns métodos e tentar refazer
+        - Construtor, Embarcar, Desembarcar, Dirigir
+    2. Criar um atributo potencia na moto
+        - Motifique o construtor da moto para receber a potência
+        - Modifique o barulho do motor ao dirigir, mudar com a potência
+        - o número de run equivale à potência da moto
+        - potencia 1: run, potencia == 2, run run, potencia == 3 run run run
+    4. Criar o atributo int tempo na moto e o atributo tempo no dirigir
+        - ao embarcar, o tempo da moto muda pra 0, o que equivale a 0 minutos de tempo da criança
+        - crie o método pagar(int), que aumenta o tempo da criança
+        - ao dirigir(tempo), gaste o tempo que a criança tem
+        - se não tiver tempo suficiente, dê uma mensagem mandando pagar mais dinheiro
+- 10 Pontos
+    - [ ] Fazer projeto equivalente à moto
+        - duas classes
+        - construtores
+        - main interativa
+        - relação de agregação entre as classes
+- 02 Pontos Extra
+    - [ ] Ler capítulo 5
 

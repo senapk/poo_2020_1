@@ -14,6 +14,7 @@ public class Motoca {
 	Pessoa pessoa; //agregacao
 
 	public Motoca(){
+			
 	}
 	
 	void embarcar(Pessoa pessoa) {
