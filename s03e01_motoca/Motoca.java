@@ -12,9 +12,10 @@ class Pessoa {
 
 public class Motoca {
 	Pessoa pessoa; //agregacao
+	int potencia;
 
-	public Motoca(){
-			
+	public Motoca(int potencia){
+		this.potencia = potencia;
 	}
 	
 	void embarcar(Pessoa pessoa) {
@@ -39,37 +40,33 @@ public class Motoca {
 		else if(this.pessoa.idade > 10)
 			System.out.println("Muito grande pra andar de moto");
 		else
-			System.out.println(this.pessoa.nome + ": Run Run Run...");
+			System.out.println(this.pessoa.nome + ":" + fazerBarulho());
+	}
+
+	String fazerBarulho(){
+		String saida = "";
+		for(int i = 0; i < this.potencia; i++)
+			saida += "run ";
+		return saida;
 	}
 
 
-	public static void main(String[] args) {
-		Pessoa davi = new Pessoa("Davi", 10);
-
-		Motoca moto = new Motoca();
-		moto.embarcar(davi);
-		moto.dirigir();
-		moto.desembarcar();
-
-		Motoca moto2 = new Motoca();
-		moto2.embarcar(davi);
-		moto2.dirigir();
-		moto2.desembarcar();
-
-		System.out.println(davi.nome);
-	}
-/*
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		Motoca motoca  = new Motoca();
+		Motoca motoca  = new Motoca(1);
 		while(true) {
 			String line = scanner.nextLine();
 			String ui[] = line.split(" ");
 			if(ui[0].equals("end")) {
 				break;
+			}else if(ui[0].equals("init")) { //potencia
+				Pessoa pessoa = motoca.pessoa;
+				motoca = new Motoca(Integer.parseInt(ui[1]));
+				motoca.embarcar(pessoa);
 			}else if(ui[0].equals("embarcar")) { //nome  idade
 				int idade = Integer.parseInt(ui[2]);
-				motoca.embarcar(ui[1], idade);
+				Pessoa pessoa = new Pessoa(ui[1], idade);
+				motoca.embarcar(pessoa);
 			}else if(ui[0].equals("desembarcar")) {
 				motoca.desembarcar();
 			}else if(ui[0].equals("dirigir")) {
@@ -80,7 +77,6 @@ public class Motoca {
 		}
 		scanner.close();
 	}
-*/
 }
 
 

@@ -67,6 +67,27 @@
         - construtores
         - main interativa
         - relação de agregação entre as classes
+    - [ ] Sugestão: Lapiseira e grafite
+```bash
+# inicia uma lapiseira 0.5
+$init 0.5 
+#escreve tantas linhas
+$escrever 10
+voce nao tem grafite
+#insere um grafite passando espessura e tamanho do grafite, cade cm de grafite escreve 10 linhas
+$inserirGrafite 0.7 5
+$escrever 10
+o grafite inserido nao serve
+$retirarGrafite
+$inserirGrafite 0.5 3
+$escrever 20
+escrevendo
+$escrever 20
+voce escreveu 10 linhas
+acabou o grafite
+$inserirGrafite 0.5 6
+```
+
 - 02 Pontos Extra
     - [ ] Ler capítulo 5
 
