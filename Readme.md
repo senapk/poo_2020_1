@@ -61,13 +61,16 @@
         - crie o método pagar(int), que aumenta o tempo da criança
         - ao dirigir(tempo), gaste o tempo que a criança tem
         - se não tiver tempo suficiente, dê uma mensagem mandando pagar mais dinheiro
+
+## S03E02 - Prática
 - 10 Pontos
     - [ ] Fazer projeto equivalente à moto
         - duas classes
         - construtores
         - main interativa
         - relação de agregação entre as classes
-    - [ ] Sugestão: Lapiseira e grafite
+        
+- [ ] Sugestão: Lapiseira e grafite
 ```bash
 # inicia uma lapiseira 0.5
 $init 0.5 
