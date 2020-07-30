@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>143</x>
+      <y>78</y>
+      <w>273</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>*class Cliente*
+bg=yellow
+--
++ id: String
++ fone: String
+--
++ Cliente(id, fone)
++ toString(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>104</x>
+      <y>234</y>
+      <w>351</w>
+      <h>169</h>
+    </coordinates>
+    <panel_attributes>*class Sala*
+bg=yellow
+--
++ cadeiras: Cliente[]
+--
++ Sala(lotacao: int)
++ reservar(id, fone, indice): bool
++ cancelar(id): bool
++ toString(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

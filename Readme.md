@@ -1,4 +1,28 @@
-# Poo DD 2020.1
+# Poo Java 2020.1
+
+<!--TOC_BEGIN-->
+- [Pastas de Trabalhos](#pastas-de-trabalhos)
+- [Links](#links)
+- [Recursos ](#recursos)
+    - [Java](#java)
+    - [Git](#git)
+- [S01E01](#s01e01)
+- [S01E02](#s01e02)
+- [S02E01](#s02e01)
+- [S03E01 - Motoca](#s03e01---motoca)
+- [S03E02 - Prática](#s03e02---prática)
+- [S05E01 - Trabalho do Carro](#s05e01---trabalho-do-carro)
+
+<!--TOC_END-->
+
+## Pastas de Trabalhos
+- 01_carro
+    - Readme.md
+- 02_motoca
+    - Readme.md
+- 03_lapiseira
+    - Readme.md
+
 
 ## Links
 - [Nosso canal do Youtube](https://www.youtube.com/playlist?list=PLqwyjBSVOHRw_g8n63C_aE0m7mWqEioYT)
@@ -7,13 +31,14 @@
 - [Pranilha de Flequência](https://docs.google.com/spreadsheets/d/1EIAFzdPrwLA0N6YIlWZKdF_N4qaovy8w0uzM6jx8OV0/edit?usp=sharing)
 
 
-## Recursos Java
+## Recursos 
+### Java
 - [Modelo para o seu repositório do Git](https://github.com/senapk/exemplo_repositorio_disciplina)
 - [Apostila Caelum](https://www.caelum.com.br/apostila-java-orientacao-objetos/)
 - [Java Gafanhoto](https://www.youtube.com/playlist?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY)
 - [Java Gafanhoto Link2](https://www.cursoemvideo.com/course/curso-de-poo-java/)
 
-## Recursos Git
+### Git
 - [Guia Rápido](https://rogerdudler.github.io/git-guide/index.pt_BR.html)
 - [Git book](https://pt.wikiversity.org/wiki/Git_B%C3%A1sico)
 - [Vídeo Aulas](https://www.youtube.com/playlist?list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0) Assista dos vídeos de 1 até o 4.
@@ -28,13 +53,14 @@
     - [ ] Instale o git na sua máquina pessoal
     - [ ] Coloque/Atualize sua foto no Si3
     - [ ] Coloque seu email e repositório na planilha de Notas
-### S01E02
+
+## S01E02
 - 01 Ponto
     - [ ] Criar seu repositório no github
     - [ ] No seu repositório crie a pasta **Projeto 01**
         - Insira os primeiros códigos que for criando nessa pasta
 
-### S02E01
+## S02E01
 - 03 Pontos
     - [ ] Finalizar o projeto do Carro iniciado em casa
         - Coloque na pasta **Projeto 02 Carro**
@@ -47,7 +73,7 @@
 - 02 Ponto Extra
     - Ler apostila capítulo 4
 
-### S03E01 Motoca
+## S03E01 - Motoca
 - 03 Pontos
     1. Estudar alguns métodos e tentar refazer
         - Construtor, Embarcar, Desembarcar, Dirigir
@@ -94,3 +120,6 @@ $inserirGrafite 0.5 6
 - 02 Pontos Extra
     - [ ] Ler capítulo 5
 
+## S05E01 - Carro
+- Estude o código do carro na pasta S05E01 e adicione ou remova alguma funcionalidade.
+- Envie seu código para seu repositório
