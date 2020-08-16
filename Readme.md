@@ -1,7 +1,7 @@
 # Poo Java 2020.1
 
 <!--TOC_BEGIN-->
-- [Pastas de Trabalhos](#pastas-de-trabalhos)
+- [Vídeos](#vídeos)
 - [Links](#links)
 - [Recursos ](#recursos)
     - [Java](#java)
@@ -11,18 +11,13 @@
 - [S02E01](#s02e01)
 - [S03E01 - Motoca](#s03e01---motoca)
 - [S03E02 - Prática](#s03e02---prática)
-- [S05E01 - Trabalho do Carro](#s05e01---trabalho-do-carro)
+- [S05E01 - Carro](#s05e01---carro)
 
 <!--TOC_END-->
 
-## Pastas de Trabalhos
-- 01_carro
-    - Readme.md
-- 02_motoca
-    - Readme.md
-- 03_lapiseira
-    - Readme.md
-
+## Vídeos
+- [30/07/2020 - Cinema](https://drive.google.com/file/d/1gdc82fE0rtd7zCnriID2SOeuMSPEasCT/view?usp=sharing)
+- [13/08/2020 - Agenda 1](https://drive.google.com/file/d/1qb8uqcPFakeD7ugGKcZ0-jmnpdD1W0rG/view?usp=sharing)
 
 ## Links
 - [Nosso canal do Youtube](https://www.youtube.com/playlist?list=PLqwyjBSVOHRw_g8n63C_aE0m7mWqEioYT)
