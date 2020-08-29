@@ -18,7 +18,8 @@
 ## Vídeos
 - [30/07/2020 - Cinema](https://drive.google.com/file/d/1gdc82fE0rtd7zCnriID2SOeuMSPEasCT/view?usp=sharing)
 - [13/08/2020 - Agenda 1](https://drive.google.com/file/d/1qb8uqcPFakeD7ugGKcZ0-jmnpdD1W0rG/view?usp=sharing)
-- [20/08/2010 - Agiota](https://drive.google.com/file/d/1K9_6hUFYdIoor_sQ-4zueV1A7NhOALhT/view?usp=sharing)
+- [20/08/2020 - Agiota](https://drive.google.com/file/d/1K9_6hUFYdIoor_sQ-4zueV1A7NhOALhT/view?usp=sharing)
+- [27/08/2020 - Interface e Ordenação na Agenda 2](https://drive.google.com/file/d/1MONw4hyG1STa46dAbl22zaIpxMypKoKW/view?usp=sharing)
 
 ## Links
 - [Nosso canal do Youtube](https://www.youtube.com/playlist?list=PLqwyjBSVOHRw_g8n63C_aE0m7mWqEioYT)
